@@ -188,15 +188,18 @@ def them_moi_hoc_phan(danh_sach_hp, hien_thong_bao, root):
         nonlocal root
         ma_hp = entry_ma_hp.get()
         ten_hp = entry_ten_hp.get()
-        hp = HocPhan(ma_hp, ten_hp)
-        if any(hp.ma_hp == item.ma_hp for item in danh_sach_hp):
-            hien_thong_bao("Lỗi: Mã học phần đã tồn tại!")
+        if not ma_hp or not ten_hp:
+            hien_thong_bao("Lỗi: Vui lòng nhập đầy đủ mã học phần và tên học phần!")
         else:
-            danh_sach_hp.append(hp)
-            ghi_du_lieu("HP.bin", danh_sach_hp)
-            hien_thong_bao("Đã thêm học phần!")
-            clear_entry(window_them_hp)
-            window_them_hp.destroy()
+            hp = HocPhan(ma_hp, ten_hp)
+            if any(hp.ma_hp == item.ma_hp for item in danh_sach_hp):
+                hien_thong_bao("Lỗi: Mã học phần đã tồn tại!")
+            else:
+                danh_sach_hp.append(hp)
+                ghi_du_lieu("HP.bin", danh_sach_hp)
+                hien_thong_bao("Đã thêm học phần!")
+                clear_entry(window_them_hp)
+                window_them_hp.destroy()
 
     window_them_hp = tk.Toplevel(root)
     window_them_hp.title("Thêm mới học phần")
