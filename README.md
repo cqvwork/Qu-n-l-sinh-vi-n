@@ -1,20 +1,20 @@
-Hướng dẫn sử dụng chương trình Quản lý sinh viên
-1. Cài đặt
-1.1 Yêu cầu hệ thống:
-Hệ điều hành: Windows, Linux hoặc macOS.
-Python 3.x đã được cài đặt.
-Thư viện Tkinter (thường được tích hợp sẵn trong Python).
-1.2 Các bước cài đặt:
-Tải mã nguồn chương trình từ Github: https://github.com/cqvwork/Quan_ly_sinh_vien
-Giải nén file zip đã tải về vào một thư mục bất kỳ trên máy tính.
-Mở chương trình bằng cách chạy file ql_sv.py bằng Python.
-2. Giao diện chính
-Sau khi chạy chương trình, bạn sẽ thấy giao diện chính với 4 tab chính:
-Sinh viên: Quản lý thông tin sinh viên.
-Học phần: Quản lý thông tin học phần.
-Điểm: Quản lý điểm của sinh viên cho từng học phần.
-In bảng điểm: In bảng điểm của sinh viên.
-3. Thao tác trên chương trình
+Hướng dẫn sử dụng chương trình Quản lý sinh viên\\
+1. Cài đặt\\
+1.1 Yêu cầu hệ thống:\\
+Hệ điều hành: Windows, Linux hoặc macOS.\\
+Python 3.x đã được cài đặt.\\
+Thư viện Tkinter (thường được tích hợp sẵn trong Python).\\
+1.2 Các bước cài đặt:\\
+Tải mã nguồn chương trình từ Github: https://github.com/cqvwork/Quan_ly_sinh_vien\\
+Giải nén file zip đã tải về vào một thư mục bất kỳ trên máy tính.\\
+Mở chương trình bằng cách chạy file ql_sv.py bằng Python.\\
+2. Giao diện chính\\
+Sau khi chạy chương trình, bạn sẽ thấy giao diện chính với 4 tab chính:\\
+Sinh viên: Quản lý thông tin sinh viên.\\
+Học phần: Quản lý thông tin học phần.\\
+Điểm: Quản lý điểm của sinh viên cho từng học phần.\\
+In bảng điểm: In bảng điểm của sinh viên.\\
+3. Thao tác trên chương trình\\
 3.1 Tab Sinh viên:
 Thêm sinh viên:
 Nhập thông tin sinh viên vào các trường tương ứng: Mã SV, Họ và tên, Giới tính, Ngày sinh (dd/mm/yyyy).
