@@ -42,11 +42,7 @@ Hướng dẫn sử dụng chương trình Quản lý sinh viên
 
     
     Nhấn nút "Thêm" để thêm sinh viên vào danh sách.
-
-    
   ### Sửa sinh viên:
-
-  
     Nhập Mã SV của sinh viên cần sửa vào trường "Mã SV".
 
     
