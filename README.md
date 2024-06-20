@@ -40,15 +40,15 @@ Hướng dẫn sử dụng chương trình Quản lý sinh viên
   ### Thêm sinh viên:
     Nhập thông tin sinh viên vào các trường tương ứng: Mã SV, Họ và tên, Giới tính, Ngày sinh (dd/mm/yyyy).
 
-    
+
     Nhấn nút "Thêm" để thêm sinh viên vào danh sách.
   ### Sửa sinh viên:
     Nhập Mã SV của sinh viên cần sửa vào trường "Mã SV".
 
-    
+
     Sửa thông tin sinh viên trong các trường tương ứng.
 
-    
+
     Nhấn nút "Sửa" để lưu thay đổi.
   ### Xóa sinh viên:
     Nhập Mã SV của sinh viên cần xóa vào trường "Mã SV".
