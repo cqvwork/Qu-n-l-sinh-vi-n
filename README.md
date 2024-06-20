@@ -35,13 +35,9 @@ Hướng dẫn sử dụng chương trình Quản lý sinh viên
 
   
   In bảng điểm: In bảng điểm của sinh viên.
-
-  
 # 3. Thao tác trên chương trình
 ## 3.1 Tab Sinh viên:
   ### Thêm sinh viên:
-
-  
     Nhập thông tin sinh viên vào các trường tương ứng: Mã SV, Họ và tên, Giới tính, Ngày sinh (dd/mm/yyyy).
 
     
@@ -58,8 +54,6 @@ Hướng dẫn sử dụng chương trình Quản lý sinh viên
 
     
     Nhấn nút "Sửa" để lưu thay đổi.
-
-    
   ### Xóa sinh viên:
     Nhập Mã SV của sinh viên cần xóa vào trường "Mã SV".
 
@@ -68,8 +62,6 @@ Hướng dẫn sử dụng chương trình Quản lý sinh viên
 
     
     Xác nhận xóa sinh viên.
-
-    
 ## 3.2 Tab Học phần:
 ### Thêm học phần:
 Nhập thông tin học phần vào các trường tương ứng: Mã HP, Tên HP.
